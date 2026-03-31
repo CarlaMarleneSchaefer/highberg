@@ -2,18 +2,191 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Application</title>
-    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
-    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carla-Marlene Schäfer - Application for The Brink Agency</title>
+    <meta name="description" content="Application landing page for Carla-Marlene Schäfer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to my Interactive Application!</h1>
-    <p>Below is Python code running live in your browser:</p>
-    
-    <script type="py">
-        # You can write standard Python here!
-        print("Hello! I built this interactive page specifically for this application.")
-        import antigravity
-    </script>
+    <nav class="navbar">
+        <div class="logo">CARLA-MARLENE SCHÄFER</div>
+        <div class="nav-links">
+            <a href="#letter">Motivation</a>
+            <a href="#cv">CV</a>
+            <a href="CV and recommendation letters_Carla.pdf" target="_blank" class="accent-btn">Recommendations.pdf</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="animate-up">Human-Centric Communication,<br>Engineered for Transformation.</h1>
+            <p class="animate-up delay-1">My application to The Brink Agency.</p>
+            <div class="hero-actions animate-up delay-2">
+                <a href="#letter" class="btn btn-primary">Read My Letter</a>
+                <a href="#cv" class="btn btn-outline">Explore CV</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="letter" class="section dark-section">
+        <div class="container content-grid">
+            <div class="letter-header fade-in">
+                <h2>Motivation<br>Letter</h2>
+                <p>Amsterdam Office</p>
+                <p>July - September 2026</p>
+                <div class="contact-info">
+                    <p>+49 176 40423060</p>
+                    <p>Carla.m.schaefer@gmx.de</p>
+                    <p>Bergheimerstraße 122, 69115 Heidelberg</p>
+                </div>
+            </div>
+            <div class="letter-body fade-in">
+                <p>Dear The Brink Agency Team,</p>
+                <p>I am writing to express my strong interest in a full-time summer internship at your Amsterdam office from July to the end of September 2026.</p>
+                <p>I am currently transitioning from completing my Bachelor of Science in Business Psychology to a Master’s degree in Work and Organizational Psychology. My academic focus lies in understanding how people adapt to change and form deep connections with organizations. While researching why so many transformations fail, I wrote my bachelor's thesis on “Communicative Methods and Strategies in Transformation Processes” and received top marks for my research. My findings proved that true behavioral change requires a targeted, methodical, and human-centric approach.</p>
+                <p>This directly mirrors your philosophy at The Brink Agency. When I came across your article on “Cultural Resonance KPIs,” I found it fascinating. Building a brand identity, implementing an AI-powered content strategy, or rolling out custom low-code systems are not just technical shifts—they are profound psychological transformations for both the client and their end-users. I want to bring my understanding of human-centric communication to your agency, helping to craft brand experiences that measure true emotional impact rather than just clicks.</p>
+                <p>Beyond my academic background, I bring significant practical experience that seamlessly bridges strategy and operational execution:</p>
+                <p>During my internship at PengPeng! Consultancy in 2025, an agency for creative transformation support, I actively participated in ongoing change projects, helped design workshops, and supported clients in their transformation processes. I see a direct application for these skills in your Brand Identity or Strategy projects, ensuring that digital innovations resonate with the people adopting them.</p>
+                <p>Simultaneously, I have been working as a working student at cbs consultancy in marketing and event management for three years. There, I learned how to manage complex projects and smoothly organize formats ranging from small gatherings to large corporate events with nearly 1,000 participants. I would be thrilled to utilize this logistical expertise and hands-on drive to support your internal operations, agency culture, or client-facing events in Amsterdam.</p>
+                <p>Whether analyzing emotional brand impact or ensuring the smooth execution of agency operations, I approach challenges with empathy and structure. My complete application package, consisting of my CV, this letter of motivation, and a letter of recommendation from my professor, is enclosed.</p>
+                <p>Thank you for your time. I look forward to the opportunity to meet you and discuss how we can build what's next.</p>
+                <p>Kind regards,</p>
+                <p class="signature">Carla-Marlene Schäfer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="section light-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Curriculum Vitae</h2>
+            
+            <div class="bento-grid">
+                <!-- Education Block -->
+                <div class="bento-card fade-in">
+                    <h3>Educational Path</h3>
+                    <div class="timeline-item">
+                        <h4>Fresenius University of Applied Sciences</h4>
+                        <span class="location">Heidelberg DE</span>
+                        <span class="date">03/2023 - 03/2026</span>
+                        <p><strong>Bachelor's Thesis:</strong> “Communicative Methods and Strategies in Transformation Processes” (top marks)</p>
+                        <ul class="styled-list">
+                            <li><strong>Organizational Psychology & Consulting:</strong> Coaching & Systemic Consulting, Organizational Diagnostics & Interventions, Corporate Organization.</li>
+                            <li><strong>Work Psychology & Digitalization:</strong> Psychology of New Work, Technology, Digital Leadership & Collaboration.</li>
+                            <li><strong>Further Subjects:</strong> Business Ethics, Project Management, International Management, Intercultural Competencies.</li>
+                            <li><strong>Research:</strong> Empirical Research & Data Analysis (SPSS, JASP), Scientific Writing.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Kurfürst Ruprecht High School</h4>
+                        <span class="location">Neustadt a.d. Weinstraße</span>
+                        <span class="date">2019 - 2022</span>
+                        <p>Biology, German, Art</p>
+                    </div>
+                </div>
+
+                <!-- Experience Block -->
+                <div class="bento-card fade-in">
+                    <h3>Work Experience</h3>
+                    
+                    <div class="timeline-item">
+                        <h4>Peng Peng! Consultancy</h4>
+                        <span class="location">Wiesbaden DE</span>
+                        <span class="date">August 2025</span>
+                        <p><strong>Transformation-, Change- & Event Management</strong></p>
+                        <ul class="styled-list">
+                            <li>Support for strategic change and transformation projects.</li>
+                            <li>Analysis of briefings and development of conceptual approaches.</li>
+                            <li>Collaboration in research, project management, and presentations.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>CBS Consulting</h4>
+                        <span class="location">Heidelberg DE</span>
+                        <span class="date">03/2024 - 03/2026</span>
+                        <p><strong>Marketing - Working student, event management</strong></p>
+                        <ul class="styled-list">
+                            <li>Assisting with the planning and organization of events.</li>
+                            <li>Overseeing marketing activities related to the event.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>CBS Consulting</h4>
+                        <span class="location">Heidelberg DE</span>
+                        <span class="date">03/2023 - 02/2024</span>
+                        <p><strong>Partner Management - Recruiting and Contracting</strong></p>
+                        <ul class="styled-list">
+                            <li>Support in acquiring and maintaining partner contacts.</li>
+                            <li>Preparation of offers and contract documents.</li>
+                            <li>Data maintenance in the SAP system.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>AuPair</h4>
+                        <span class="location">Washington DC USA & Cashel IR</span>
+                        <span class="date">04/2022 - 01/2023</span>
+                        <p><strong>With one and four children per family</strong></p>
+                        <ul class="styled-list">
+                            <li>Improving language skills & cultural exchange.</li>
+                            <li>Caring for and supervising the children.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skills Block -->
+                <div class="bento-card featured-card fade-in">
+                    <h3>Skills & Interests</h3>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-group">
+                            <h4>Social Skills</h4>
+                            <p>Conflict management, Team player, Problem-solving oriented.</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>IT Skills</h4>
+                            <p>MS SharePoint, MS Word, MS PowerPoint, MS Excel, SPSS, JASP.</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Languages</h4>
+                            <p>German (Native), English (C1).</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Interests</h4>
+                            <p>Art (Painting and drawing), Reading, Sports (Jogging and road cycling).</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Volunteer Work</h4>
+                            <p>Active member of Heidelberg Symposium, Heidelberg Art Association, Ludwig Fresenius Talent Network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-download fade-in">
+                <h2>Ready to connect?</h2>
+                <a href="CV and recommendation letters_Carla.pdf" target="_blank" class="btn btn-primary btn-large">Download Full Application PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <h2>CARLA-MARLENE SCHÄFER</h2>
+            <div class="footer-bottom">
+                <p>Application for The Brink Agency.</p>
+                <div class="footer-links">
+                    <a href="CV and recommendation letters_Carla.pdf" target="_blank">Recommendations</a>
+                    <a href="mailto:Carla.m.schaefer@gmx.de">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
